@@ -195,6 +195,7 @@ body {
 }
 
 .thanks-section { 
+  display: none;
   width: 375px;
   margin: auto;
 }
