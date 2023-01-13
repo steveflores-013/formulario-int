@@ -168,8 +168,9 @@ confirmBtn.addEventListener('click', (event)=>{
 
   if(nameValidation == true && numberValidation == true && monthValidation == true && yearValidation == true && cvcValidation == true ){
     form.style.display = ' none';
-    thanks.style.diplay = 'block';
+    thanks.style.display = 'block';
   }
+  
    
 
 });
