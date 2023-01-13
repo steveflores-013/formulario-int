@@ -111,7 +111,7 @@ let form = document.querySelector('.form');
 let thanks = document.querySelector('.thanks-section');
 
 confirmBtn.addEventListener('click', (event)=>{
-    // event.preventDefault();
+    event.preventDefault();
     //validar name vacio
    
     if( !verifyIsFilled(nameInput,nameErrorDiv)){
